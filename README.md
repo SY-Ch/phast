@@ -1,1 +1,1 @@
-# PhAST：End-to-end photon timing profile reconstruction with transformers
+# PhAST：End-to-End Photon Timing Profile Reconstruction with Transformers
