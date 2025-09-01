@@ -11,7 +11,7 @@ from pytorch_lightning.cli import LightningCLI
 
 if __name__ == "__main__":
     LightningCLI(
-        
-        subclass_mode_model=True, subclass_mode_data=True,
+        subclass_mode_model=True, 
+        subclass_mode_data=True,
         auto_configure_optimizers=True,
     )

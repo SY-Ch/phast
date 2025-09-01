@@ -1,15 +1,15 @@
+seed_everything: 42
+
 trainer:
   max_epochs: 50
   accelerator: auto
   devices: 1
 
 model:
-  class_path: phast.model.phast
+  class_path: phast.model.building_phast
   init_args:
-    in_dim: 32
-    hidden: 128
-    out_dim: 10
-    lr: 0.0005
+    backbone:        
+    decoder: 
 
 data:
   class_path: phast.dataloader.base_loader
